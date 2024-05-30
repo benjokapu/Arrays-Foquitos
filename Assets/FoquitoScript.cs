@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FoquitoScript : MonoBehaviour
 {
-    [SerializeField] GameObject[] colors;
+    public GameObject[] colors;
     public int currentLightIndex =-1;
 
     void Start()
